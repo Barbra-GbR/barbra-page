@@ -1,0 +1,19 @@
+body {
+    background: url("../../Static/images/bookmarks-background.png") no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+}
+
+#bookmark-base > #bookmark-header{
+    width: 100%;
+}
+
+#bookmark-base > #bookmark-container{
+    width: 100%;
+    height: calc(100% - 200px);
+}
+
+.invisible {
+    visibility: hidden;
+}
